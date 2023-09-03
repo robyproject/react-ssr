@@ -1,11 +1,24 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url(./assets/fonts/metropolis/Metropolis-Regular.otf) format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url(./assets/fonts/metropolis/Metropolis-Medium.otf) format('opentype');
+  font-weight: 500;
+}
+/* @font-face {
+  font-family: 'Metropolis-Bold';
+  src: url(./assets/fonts/metropolis/Metropolis-Bold.otf) format('opentype');
+  font-weight: 700;
+} */
+
+:root {
+  font-family: 'Metropolis-Bold';
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,7 +27,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
+
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -53,17 +67,5 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}

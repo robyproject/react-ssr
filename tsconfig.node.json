@@ -9,7 +9,9 @@
   },
   "include": [
     "vite.config.ts",
-    "src/entry-server.tsx",
-    "src/vite-env.d.ts"
+"src/**/*"
+    // "src/entry-server.tsx",
+    // "src/vite-env.d.ts"
+  
   ]
 }
